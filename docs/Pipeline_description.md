@@ -2,34 +2,8 @@
 
 This document explains the steps of the CI/CD pipeline implemented using CircleCI.
 
+<img width="987" height="830" alt="image" src="https://github.com/user-attachments/assets/b943524b-a2c9-40fb-8a02-4338878723f2" />
 
-+-------------------+      +-------------------+      +-------------------+
-|                   |      |                   |      |                   |
-|    Push Code      +----->+   CircleCI        +----->+   Build & Test    |
-|  (To Repository)  |      |  (CI/CD Pipeline) |      |    (Frontend &    |
-|                   |      |                   |      |      Backend)     |
-+-------------------+      +-------------------+      +-------------------+
-
-                                      |
-                                      v
-
-                            +-------------------+
-                            |                   |
-                            |  Deploy Backend    |
-                            |   to Elastic      |
-                            |   Beanstalk       |
-                            |                   |
-                            +-------------------+
-
-                                      |
-                                      v
-
-                            +-------------------+
-                            |                   |
-                            |  Deploy Frontend   |
-                            |   to S3 Bucket    |
-                            |                   |
-                            +-------------------+
 
 
 ## Steps Overview
