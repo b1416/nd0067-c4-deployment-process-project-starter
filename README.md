@@ -63,39 +63,55 @@ The e2e tests are using Protractor and Jasmine.
 - [Pipeline Description](./docs/Pipeline_description.md)
 
 ## Demo
-A live demo for the Application can be found at [udagram][]
+A live demo for the Application can be found at [udagram][http://udagram-671288804271.s3-website-us-east-1.amazonaws.com/]
 
 Frontend 
-// screenshot
+![Demo Screenshot](screenshots/Frontend.png)
 Backend 
-// screenshot
+![Demo Screenshot](screenshots/backend.png)
+
 
 
 ## The deployment process and AWS resources used in this project:
-// key screenshot
-// Amazon RDS dashboard showing the details of the database instance.
+
 
 ### Amazon RDS
- RDS dashboard showing the details of the database instance.
-Detailed view of the RDS instance security group configuration, including endpoint and connectivity settings.
+RDS dashboard showing the details of the database instance.
+![database dashpoard](./screenshots/databash_dashboard.png)
+Detailed view of the RDS instance security group 
+![database dashpoard](./screenshots/database_group.png)
+
 
 ### AWS Elastic Beanstalk 
+AWS Elastic Beanstalk Create Using ebCli
+![Elastic Beanstalk](./screenshots/create%20Eb.png)
 
+AWS Elastic Beanstalk health chick Using ebCli
+![Elastic Beanstalk](./screenshots/eb%20health.png)
 AWS Elastic Beanstalk environment dashboard, showing the status of the deployed api.
+![Elastic Beanstalk](./screenshots/eb%20dashboard.png)
 
 
 
 ### AWS S3 
 bucket dashboard, displaying the contents of the bucket used for hosting the frontend.
-public access settings, showing the configuration for allowing public access to the hosted frontend.
+![ AWS S3](./screenshots/s3dashboard.png)
+
 policy configuration, ensuring proper permissions for public access to the frontend files.
+![ AWS S3](./screenshots/s3policy.png)
+
 S3 bucket CORS configuration, allowing cross-origin requests from the frontend.
+![ AWS S3](./screenshots/s3cors.png)
 
 ### CircleCI
 //CircleCI dashboard overview, highlighting recent pipeline runs.
+![CircleCI](./screenshots/pipeline.png)
+
 CircleCI build job details, showing successful build steps.
+![CircleCI](./screenshots/pipeline_deploy.png)
 
 CircleCI deployment job details, confirming successful deployment to AWS.
+![CircleCI](./screenshots/pipeline_env.png)
 
 
 
