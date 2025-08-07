@@ -5,7 +5,7 @@ This document describes the infrastructure components used to host the applicati
 ## 🔗 Architecture Overview
 +-------------------+      +-------------------+      +-------------------+
 |                   |      |                   |      |                   |
-|      Client       +----->+      S3 Bucket    +----->+ (Static Frontend) |
+|      Client       + ---> +      S3 Bucket    + ---> + (Static Frontend) |
 |   (Web Browser)   |      |                   |      |                   |
 +-------------------+      +-------------------+      +-------------------+
 
@@ -14,7 +14,7 @@ This document describes the infrastructure components used to host the applicati
 
 +-------------------+      +-------------------+
 |                   |      |                   |
-| Elastic Beanstalk +----->+      RDS          |
+| Elastic Beanstalk + ---> +      RDS          |
 |    (API Server)   |      |  (Postgres DB)    |
 +-------------------+      +-------------------+
 
@@ -42,8 +42,8 @@ This document describes the infrastructure components used to host the applicati
 
 +-------------------+      +-------------------+
 |                   |      |                   |
-|  Elastic Beanstalk |      |        S3         |
-|   (API Deploy)     |      |  (Frontend Deploy) |
+| Elastic Beanstalk |      |        S3         |
+|  (API Deploy)     |      | (Frontend Deploy) |
 +-------------------+      +-------------------+
 
 
