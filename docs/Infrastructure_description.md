@@ -3,8 +3,7 @@
 This document describes the infrastructure components used to host the application, including the backend API, frontend client, and database.
 
 ## 🔗 Architecture Overview
-<img width="962" height="866" alt="image" src="https://github.com/user-attachments/assets/f9b98ad4-0f69-45a8-bbe3-fb56c72d92fa" />
-
+<img width="536" height="331" alt="image" src="https://github.com/user-attachments/assets/8b8e8639-6f0c-4f24-abc2-b2a37472f025" />
 
 
 ## Components
