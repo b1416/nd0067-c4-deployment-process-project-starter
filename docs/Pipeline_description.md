@@ -2,7 +2,8 @@
 
 This document explains the steps of the CI/CD pipeline implemented using CircleCI.
 
-<img width="987" height="830" alt="image" src="https://github.com/user-attachments/assets/b943524b-a2c9-40fb-8a02-4338878723f2" />
+<img width="263" height="137" alt="image" src="https://github.com/user-attachments/assets/97828d81-e8f0-4bd8-a3c5-bd420e78eb9f" />
+
 
 
 
