@@ -3,6 +3,8 @@
 This document describes the infrastructure components used to host the application, including the backend API, frontend client, and database.
 
 ## 🔗 Architecture Overview
+<img width="987" height="830" alt="image" src="https://github.com/user-attachments/assets/dafc2300-0088-420d-9195-147d8afbc40f" />
+
 +-------------------+      +-------------------+      +-------------------+
 |                   |      |                   |      |                   |
 |      Client       + ---> +      S3 Bucket    + ---> + (Static Frontend) |
