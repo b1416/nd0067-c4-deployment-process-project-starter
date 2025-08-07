@@ -3,50 +3,8 @@
 This document describes the infrastructure components used to host the application, including the backend API, frontend client, and database.
 
 ## 🔗 Architecture Overview
-<img width="987" height="830" alt="image" src="https://github.com/user-attachments/assets/dafc2300-0088-420d-9195-147d8afbc40f" />
+<img width="962" height="866" alt="image" src="https://github.com/user-attachments/assets/f9b98ad4-0f69-45a8-bbe3-fb56c72d92fa" />
 
-+-------------------+      +-------------------+      +-------------------+
-|                   |      |                   |      |                   |
-|      Client       + ---> +      S3 Bucket    + ---> + (Static Frontend) |
-|   (Web Browser)   |      |                   |      |                   |
-+-------------------+      +-------------------+      +-------------------+
-
-         |
-         v
-
-+-------------------+      +-------------------+
-|                   |      |                   |
-| Elastic Beanstalk + ---> +      RDS          |
-|    (API Server)   |      |  (Postgres DB)    |
-+-------------------+      +-------------------+
-
-         |
-         v
-
-+-------------------+
-|                   |
-|      S3 Bucket    |
-|   (User Uploads)  |
-|                   |
-+-------------------+
-
-         ^
-         |
-+-------------------+
-|                   |
-|    CircleCI       |
-|   (CI/CD Pipeline)|
-|                   |
-+-------------------+
-
-         |
-         v
-
-+-------------------+      +-------------------+
-|                   |      |                   |
-| Elastic Beanstalk |      |        S3         |
-|  (API Deploy)     |      | (Frontend Deploy) |
-+-------------------+      +-------------------+
 
 
 ## Components
